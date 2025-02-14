@@ -43,7 +43,7 @@ const TermsAndConditions = () => {
           Introduction
         </h2>
         <p className="text-gray-700">
-          Welcome to EcoStore, your trusted destination for eco-friendly and
+          Welcome to EcoFabric, your trusted destination for eco-friendly and
           biodegradable products. These Terms and Conditions govern your use of
           our website and services. By accessing or using our platform, you
           agree to be bound by these terms.
@@ -56,7 +56,7 @@ const TermsAndConditions = () => {
           User Responsibilities
         </h2>
         <p className="text-gray-700">
-          As a user of EcoStore, you agree to use the website in a lawful
+          As a user of EcoFabric, you agree to use the website in a lawful
           manner. You are prohibited from using our platform to engage in any
           fraudulent or harmful activity. You also agree to provide accurate
           information during the registration and purchase processes.
@@ -122,8 +122,8 @@ const TermsAndConditions = () => {
           Intellectual Property
         </h2>
         <p className="text-gray-700">
-          All content on the EcoStore website, including product descriptions,
-          images, and branding, is the property of EcoStore and is protected by
+          All content on the EcoFabric website, including product descriptions,
+          images, and branding, is the property of EcoFabric and is protected by
           intellectual property laws. You may not reproduce, distribute, or use
           any content from this website without prior written consent.
         </p>
@@ -135,7 +135,7 @@ const TermsAndConditions = () => {
           Limitation of Liability
         </h2>
         <p className="text-gray-700">
-          EcoStore is not liable for any direct, indirect, incidental, or
+          EcoFabric is not liable for any direct, indirect, incidental, or
           consequential damages that may arise from your use of the website or
           services. This includes, but is not limited to, damages resulting from
           lost data, unauthorized access, or interruptions in service.
@@ -163,7 +163,7 @@ const TermsAndConditions = () => {
           If you have any questions regarding these Terms and Conditions, please
           contact us at:
         </p>
-        <p className="text-gray-700">Email: support@ecostore.com</p>
+        <p className="text-gray-700">Email: support@EcoFabric.com</p>
         <p className="text-gray-700">Phone: +1 (800) 123-4567</p>
       </section>
 

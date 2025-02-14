@@ -100,12 +100,12 @@ function AdminFeatures() {
             {
               label: "Products Count",
               data: values,
-              backgroundColor: "#ba9659",
-              borderColor: "#f4e8da",
+              backgroundColor: "#32848e",
+              borderColor: "#32848e",
               borderWidth: 2,
               barPercentage: 0.5,
-              hoverBackgroundColor: "#ba9659",
-              hoverBorderColor: "#838a60",
+              hoverBackgroundColor: "#32848e",
+              hoverBorderColor: "#f78cbf",
             },
           ],
         });
@@ -176,9 +176,9 @@ function AdminFeatures() {
                 x: index + 1,
                 y: counts[index],
               })),
-              backgroundColor: "#838a60",
-              hoverBackgroundColor: "#ba9659",
-              borderColor: "#f4e8da",
+              backgroundColor: "#f78cbf",
+              hoverBackgroundColor: "#32848e",
+              borderColor: "#f78cbf",
               borderWidth: 2,
               pointRadius: 10,
               hoverRadius: 11,
@@ -214,14 +214,14 @@ function AdminFeatures() {
     plugins: {
       legend: {
         labels: {
-          color: "#838a60",
+          color: "#32848e",
         },
       },
       tooltip: {
-        backgroundColor: "#838a60",
-        titleColor: "#f4e8da",
-        bodyColor: "#f4e8da",
-        borderColor: "#838a60",
+        backgroundColor: "#f78cbf",
+        titleColor: "#32848e",
+        bodyColor: "#32848e",
+        borderColor: "#f78cbf",
         borderWidth: 2,
         callbacks: {
           label: function (tooltipItem) {
@@ -233,18 +233,18 @@ function AdminFeatures() {
     scales: {
       x: {
         grid: {
-          color: "rgba(186, 150, 89, 0.4)",
+          color: "#32848e",
         },
         ticks: {
-          color: "#ba9659",
+          color: "#32848e",
         },
       },
       y: {
         grid: {
-          color: "rgba(186, 150, 89, 0.4)",
+          color: "#32848e",
         },
         ticks: {
-          color: "#ba9659",
+          color: "#32848e",
         },
       },
     },
@@ -255,14 +255,14 @@ function AdminFeatures() {
     plugins: {
       legend: {
         labels: {
-          color: "#838a60",
+          color: "#32848e",
         },
       },
       tooltip: {
-        backgroundColor: "#838a60",
-        titleColor: "#f4e8da",
-        bodyColor: "#f4e8da",
-        borderColor: "#838a60",
+        backgroundColor: "#32848e",
+        titleColor: "#f78cbf",
+        bodyColor: "#f78cbf",
+        borderColor: "#32848e",
         borderWidth: 2,
         callbacks: {
           label: function (tooltipItem) {
@@ -275,19 +275,19 @@ function AdminFeatures() {
       x: {
         type: "category",
         grid: {
-          color: "rgba(186, 150, 89, 0.4)",
+          color: "#f78cbf",
         },
         ticks: {
-          color: "#ba9659",
+          color: "#32848e",
           autoSkip: false,
         },
       },
       y: {
         grid: {
-          color: "rgba(186, 150, 89, 0.4)",
+          color: "#f78cbf",
         },
         ticks: {
-          color: "#ba9659",
+          color: "#32848e",
           stepSize: 100,
         },
       },

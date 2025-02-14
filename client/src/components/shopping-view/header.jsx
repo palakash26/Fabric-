@@ -167,7 +167,7 @@ function ShoppingHeader() {
       <div className="flex h-16 items-center justify-between px-4 md:px-6">
         <Link to="/shop/home" className="flex items-center gap-2">
           <img
-            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1727037064/logo1_b1yfjl.png"
+            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544482/logo_spmcos.png"
             alt="Ecommerce Logo"
             className="h-12 w-18 object-cover"
           />

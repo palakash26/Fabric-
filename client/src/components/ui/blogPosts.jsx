@@ -51,7 +51,7 @@ function BlogSection() {
           className="overflow-hidden rounded-md shadow-lg border bg-background transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-opacity-80 duration-300"
         >
           <img
-            src="https://as1.ftcdn.net/v2/jpg/02/93/03/46/1000_F_293034633_oIps7vCfMmsvDsJKk8lyfzGuIb8CxH6b.jpg"
+            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739546548/blog2_ofemhf.webp"
             alt="Blog Post 1"
             className="w-full h-48 object-cover transition-transform duration-300 transform hover:scale-110"
           />
@@ -65,7 +65,7 @@ function BlogSection() {
               carbon footprint.
             </p>
             <a
-              href="#"
+              href="https://www.iiad.edu.in/the-circle/history-of-the-indian-textile-industry/#:~:text=History%20of%20the%20Indian%20Textile%20Industry%201%20Evolution,5%20Current%20Scenario%20...%206%20Future%20Prospects%20"
               className="text-secondary font-semibold hover:underline transition-colors duration-300"
             >
               Read more
@@ -79,7 +79,7 @@ function BlogSection() {
           className="overflow-hidden rounded-md shadow-lg border bg-background transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-opacity-80 duration-300"
         >
           <img
-            src="https://www.rd.com/wp-content/uploads/2020/03/GettyImages-1070147770.jpg"
+            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544966/blog1_b6tv6s.jpg"
             alt="Blog Post 2"
             className="w-full h-48 object-cover transition-transform duration-300 transform hover:scale-110"
           />
@@ -92,7 +92,7 @@ function BlogSection() {
               missions to make the world greener.
             </p>
             <a
-              href="#"
+              href="https://blog.treasurie.com/natural-fibers/"
               className="text-secondary font-semibold hover:underline transition-colors duration-300"
             >
               Read more
@@ -106,7 +106,7 @@ function BlogSection() {
           className="overflow-hidden rounded-md shadow-lg border bg-background transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-opacity-80 duration-300"
         >
           <img
-            src="https://www.visualcapitalist.com/wp-content/uploads/2022/11/global-mismanaged-plastic-waste-shareable.jpg"
+            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739547283/blog3_iomopk.jpg"
             alt="Blog Post 3"
             className="w-full h-48 object-cover transition-transform duration-300 transform hover:scale-110"
           />
@@ -119,7 +119,7 @@ function BlogSection() {
               the environment.
             </p>
             <a
-              href="https://www.visualcapitalist.com/visualizing-mismanaged-plastic-waste-by-country/?fireglass_rsn=true&tabid=a81e1b10a78eb3c9&start_with_session_counter=2&application_server_address=wellsfargoprod28-us-east4.prod.fire.glass#fireglass_params"
+              href="https://slowfashion.global/2024/11/06/synthetic-fabrics-and-the-environment-time-for-a-change/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary font-semibold hover:underline transition-colors duration-300"

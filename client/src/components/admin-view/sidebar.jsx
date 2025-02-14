@@ -81,7 +81,7 @@ function AdminSideBar({ open, setOpen }) {
             <SheetHeader className="border-b">
               <SheetTitle className="flex gap-2 mt-5 mb-5">
                 <img
-                  src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1727037064/logo1_b1yfjl.png"
+                  src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544482/logo_spmcos.png"
                   alt="Ecommerce Logo"
                   className="h-16 w-22 object-cover"
                 />
@@ -104,7 +104,7 @@ function AdminSideBar({ open, setOpen }) {
           className="flex flex-col cursor-pointer gap-4"
         >
           <img
-            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1727037064/logo1_b1yfjl.png"
+            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544482/logo_spmcos.png"
             alt="Ecommerce Logo"
             className="h-20 w-26 self-center object-cover"
           />

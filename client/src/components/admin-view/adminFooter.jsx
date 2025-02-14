@@ -3,12 +3,12 @@ import { Heart } from "lucide-react";
 
 export const FooterAdmin = () => {
   return (
-    <div className="text-center flex flex-col md:flex-row justify-between items-center px-6 py-2 bg-[#838a60] text-[#f4e8da] border-t border-[#f4e8da]">
-      <p className="text-sm">&copy; 2024 EcoStore. All rights reserved.</p>
+    <div className="text-center flex flex-col md:flex-row justify-between items-center px-6 py-2 bg-[#32848e] text-[#f4e8da] border-t border-[#f4e8da]">
+      <p className="text-sm">&copy; 2024 EcoFabric. All rights reserved.</p>
 
       <p className="text-sm flex items-center gap-1 mt-2 md:mt-0">
         Created with
-        <Heart size={16} fill="red" className="text-red-500 animate-pulse" />
+        <Heart size={16} fill="#f78cbf" className="text-red-500" />
         by{" "}
         <a
           href="https://github.com/Innocent-Alive"

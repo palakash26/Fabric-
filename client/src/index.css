@@ -4,33 +4,32 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-   --background: 33 48% 92%; /* #f4e8da */
---foreground: 222.2 84% 4.9%; /* #0a0a0d */
---card: 33 48% 92%; /* #f4e8da */
---card-foreground: 222.2 84% 4.9%; /* #0a0a0d */
---popover: 33 48% 92%; /* #f4e8da */
---popover-foreground: 222.2 84% 4.9%; /* #0a0a0d */
---primary: 68 15% 49%; /* #838a60 */
---primary-foreground: 68 14% 40%; /* #838a60 */
---secondary: 42 38% 54%; /* #ba9659 */
---secondary-foreground: 68 15% 49%; /* #838a60 */
---muted:33 48% 92%; /* #f4e8da */
---muted-foreground: 33 48% 92%; /* #f4e8da */
---accent: 27 58% 67%; /* #f6ae4b */
---accent-foreground: 222.2 47.4% 11.2%; /* #202124 */
---destructive: 0 84.2% 60.2%; /* #ff3b30 */
---destructive-foreground: 33 48% 92%; /* #f4e8da */
---border: 68 15% 49%; /* #838a60 */
---input: 33 48% 92%; /* #f4e8da */
---ring: 42 38% 54%; /* #ba9659 */
---radius: 0.5rem;
---chart-1: 12 76% 61%; /* #e55225 */
---chart-2: 173 58% 39%; /* #18a085 */
---chart-3: 197 37% 24%; /* #166087 */
---chart-4: 43 74% 66%; /* #e0c75e */
---chart-5: 27 87% 67%; /* #f6ae4b */
-
+  :root {--background: 340 50% 95%; /* #fce4ee */
+    --foreground: 340 80% 20%; /* #8a004a */
+    --card: 340 50% 95%; /* #fce4ee */
+    --card-foreground: 340 80% 20%; /* #8a004a */
+    --popover: 340 50% 95%; /* #fce4ee */
+    --popover-foreground: 340 80% 20%; /* #8a004a */
+    --primary: 340 70% 75%; /* #f78cbf */
+    --primary-foreground: 340 80% 20%; /* #8a004a */
+    --secondary: 180 50% 40%; /* #32848e */
+    --secondary-foreground: 180 30% 95%; /* #c8eef5 */
+    --muted: 340 50% 95%; /* #fce4ee */
+    --muted-foreground: 340 50% 70%; /* #f78cbf */
+    --accent: 340 70% 85%; /* #fad3e3 */
+    --accent-foreground: 340 80% 20%; /* #8a004a */
+    --destructive: 0 84% 60%; /* #ff3b30 */
+    --destructive-foreground: 340 50% 95%; /* #fce4ee */
+    --border: 340 70% 75%; /* #f78cbf */
+    --input: 340 50% 95%; /* #fce4ee */
+    --ring: 180 50% 40%; /* #32848e */
+    --radius: 0.5rem;
+    --chart-1: 340 70% 75%; /* #f78cbf */
+    --chart-2: 180 50% 40%; /* #32848e */
+    --chart-3: 180 50% 30%; /* #266d73 */
+    --chart-4: 340 80% 85%; /* #fde0ef */
+    --chart-5: 180 40% 70%; /* #99d0db */
+    
   }
 
   .dark {

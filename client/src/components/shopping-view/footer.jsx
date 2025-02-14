@@ -21,7 +21,7 @@ export const Footer = () => {
   return (
     <div ref={footerRef}>
       <div
-        className="flex flex-col items-center bg-[#838a60] text-[#f4e8da] py-10 px-5"
+        className="flex flex-col items-center bg-[#f78cbf] text-[#fce4ee] py-10 px-5"
         style={{
           borderTopRightRadius: "40px",
           borderTopLeftRadius: "40px",
@@ -31,7 +31,7 @@ export const Footer = () => {
         {/* Back to Top Button */}
         <button
           onClick={handleBackToTop}
-          className="absolute bottom-3 right-5 bg-secondary text-[#f4e8da] p-2 rounded-full shadow-lg hover:bg-[#a88450] flex items-center justify-center"
+          className="absolute bottom-3 right-5 bg-secondary text-[#fce4ee] p-2 rounded-full shadow-lg hover:bg-[#f78cbf] flex items-center justify-center"
         >
           <FaChevronUp className="h-5 w-5" />
         </button>
@@ -40,7 +40,7 @@ export const Footer = () => {
           {/* Logo Section */}
           <div className="text-center pb-5 mb-10 lg:mr-20 md:mb-4">
             <img
-              src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1727037000/logo_kseksa.png"
+              src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544482/logo_spmcos.png"
               alt="Eco Store Logo"
               className="h-24 w-24 mx-auto"
             />
@@ -173,12 +173,12 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center flex flex-col md:flex-row justify-between items-center px-6 py-4 bg-[#838a60] text-[#f4e8da] border-t border-[#f4e8da]">
-        <p className="text-sm">&copy; 2024 EcoStore. All rights reserved.</p>
+      <div className="text-center flex flex-col md:flex-row justify-between items-center px-6 py-4 bg-[#32848e] text-[#f4e8da] border-t border-[#f4e8da]">
+        <p className="text-sm">&copy; 2024 EcoFabric. All rights reserved.</p>
 
         <p className="text-sm flex items-center gap-1 mt-2 md:mt-0">
           Created with
-          <Heart size={16} fill="red" className="text-red-500 animate-pulse" />
+          <Heart size={16} fill="#f78cbf" className="text-red-500" />
           by{" "}
           <a
             href="https://github.com/Innocent-Alive"
@@ -187,7 +187,7 @@ export const Footer = () => {
           >
             {/* Abhay Kumar Das */}
 
-            Harshika vichare
+            Harshika Vichare
           </a>
         </p>
       </div>

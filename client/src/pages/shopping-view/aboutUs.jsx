@@ -95,16 +95,16 @@ function AboutUs() {
               >
                 {/* Eco-Friendly Commitment */}
 
-                Fbric-Products Commitment
+                Fabric-Products Commitment
               </p>
               <h1
                 ref={subTitleRef}
                 className="mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl"
               >
-                Sustainability at EcoStore
+                Sustainability at EcoFabric
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                At EcoStore, we believe in a sustainable future. Our products
+                At EcoFabric, we believe in a sustainable future. Our products
                 are carefully sourced to ensure they are natural and
                 biodegradable. We are not just an e-commerce platform but a
                 movement towards a greener planet.
@@ -117,8 +117,8 @@ function AboutUs() {
           className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
         >
           <img
-            alt="EcoStore Products"
-            src="https://www.thehorizonfoundation.org/wp-content/uploads/2018/08/iStock-697438336.jpg"
+            alt="EcoFabric Products"
+            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544560/about1_cz3afp.jpg"
             className="w-[48rem] max-w-none rounded-xl bg-primary shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] object-cover object-center"
           />
         </div>
@@ -185,7 +185,7 @@ function AboutUs() {
                   href="https://ecostore.com/blog"
                   className="text-primary hover:underline"
                 >
-                  EcoStore Blog
+                  EcoFabric Blog
                 </a>
               </p>
             </div>

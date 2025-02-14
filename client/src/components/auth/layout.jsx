@@ -31,9 +31,9 @@ function AuthLayout() {
         {/* Color overlay */}
         <div className="absolute inset-0 auth-image-overlay" />
         <img
-          src="https://media.licdn.com/dms/image/v2/D5612AQHLZYCk4Z1WRw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1711883762940?e=2147483647&v=beta&t=TjJlqw5IxJSWhuy69NuHXlWyi0saDyEMQ0vhFP0frU0"
+          src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544493/login_fhgoiw.jpg"
           alt="banner image"
-          className="object-cover h-full auth-image"
+          className="object-cover h-full auth-image w-full"
         />
       </div>
     </div>

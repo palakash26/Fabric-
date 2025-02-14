@@ -82,9 +82,10 @@ export const addProductFormElements = [
       { id: "cushions", label: "Cushions" },
       { id: "curtains", label: "Curtains" },
       { id: "tablecloths", label: "Tablecloths" },
-      { id: "craft_diy_fabric", label: "Craft and DIY Fabric" },
+      { id: "patchwork", label: "Patchwork" },
       { id: "embroidery", label: "Embroidery" },
-      { id: "stationary", label: "Stationary" },
+      ///
+      { id: "quilting", label: "Quilting" },
       { id: "home_essentials", label: "Home Essentials" },
 
 
@@ -98,6 +99,7 @@ export const addProductFormElements = [
       { id: "red", label: "Red" },
       { id: "green", label: "Green" },
       { id: "blue", label: "Blue" },
+      { id: "pink", label: "Pink" },
       { id: "yellow", label: "Yellow" },
       { id: "white", label: "White" },
       { id: "black", label: "Black" },
@@ -172,11 +174,15 @@ export const categoryOptionsMap = {
   cushions: "Cushions",
   curtains: "Curtains",
   tablecloths: "Tablecloths",
-  craft_diy_fabric: "Craft and DIY Fabric",
+
+  patchwork: "Patchwork",
+  embroidery: "Embroidery",
+  ///
+  quilting: "Quilting",
+
   embroidery: "Embroidery",
 
   // ////
-  stationary: "Stationary",
   home_essentials: "Home Essentials",
 };
 
@@ -184,6 +190,7 @@ export const brandOptionsMap = {
   red: "Red",
   green: "Green",
   blue: "Blue",
+  pink: "Pink",
   yellow: "Yellow",
   white: "White",
   black: "Black",
@@ -207,17 +214,18 @@ export const filterOptions = {
     { id: "cushions", label: "Cushions" },
     { id: "curtains", label: "Curtains" },
     { id: "tablecloths", label: "Tablecloths" },
-    { id: "craft_diy_fabric", label: "Craft and DIY Fabric" },
+    { id: "patchwork", label: "Patchwork" },
     { id: "embroidery", label: "Embroidery" },
     ///
-    { id: "stationary", label: "Stationary" },
-      { id: "home_essentials", label: "Home Essentials" },
+    { id: "quilting", label: "Quilting" },
+    { id: "home_essentials", label: "Home Essentials" },
   ],
 
   brand: [
     { id: "red", label: "Red" },
     { id: "green", label: "Green" },
     { id: "blue", label: "Blue" },
+    { id: "pink", label: "Pink" },
     { id: "yellow", label: "Yellow" },
     { id: "white", label: "White" },
     { id: "black", label: "Black" },

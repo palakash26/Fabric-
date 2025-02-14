@@ -7,7 +7,7 @@ function ShoppingAccount() {
     <div className="flex flex-col">
       <div className="relative h-[300px] w-full overflow-hidden">
         <img
-          src="https://static.vecteezy.com/system/resources/previews/006/483/814/original/eco-friendly-concept-banner-with-lush-green-foliage-illustration-vector.jpg"
+          src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544583/userview_ccuntm.jpg"
           className="h-full w-full object-cover object-center opacity-90"
         />
       </div>

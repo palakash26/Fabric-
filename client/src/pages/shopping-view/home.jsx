@@ -61,9 +61,11 @@ const categoriesWithIcon = [
   { id: "cushions", label: "Cushions", icon: UtensilsCrossedIcon },
   { id: "curtains", label: "Curtains", icon: Sparkles },
   { id: "tablecloths", label: "Tablecloths", icon: NotebookPen },
-  { id: "craft_diy_fabric", label: "Craft and DIY Fabric", icon: HousePlus },
+
+  { id: "patchwork", label: "Patchwork", icon: HousePlus },
   { id: "embroidery", label: "Embroidery", icon: GiftIcon },
-  { id: "stationary", label: "Stationary", icon: Sprout },
+  ///
+  { id: "quilting", label: "Quilting", icon: Sprout },
   { id: "home_essentials", label: "Home Essentials", icon: BabyIcon },
 
 ];
@@ -184,7 +186,7 @@ function ShoppingHome() {
   };
 
   const fashionProducts = productList?.filter(
-    (product) => product.category === "cushions"
+    (product) => product.category === "natural_fabrics"
   );
   const kitchenProducts = productList?.filter(
     (product) => product.category === "tablecloths"
@@ -284,7 +286,7 @@ function ShoppingHome() {
         transition={{ duration: 0.5 }}
       >
         <h2 className="text-3xl font-bold text-center text-primary mb-12 font-elsie">
-          Cushions Deals
+          Natural Fabrics
         </h2>
         <Slider {...settings}>
           {fashionProducts?.map((product) => (
@@ -309,7 +311,7 @@ function ShoppingHome() {
         transition={{ duration: 0.5 }}
       >
         <h2 className="text-3xl font-bold text-primary text-center mb-12 font-elsie">
-          Tablecloths Deals
+          Tablecloths Fabrics
         </h2>
         <Slider {...settings}>
           {kitchenProducts?.map((productItem) => (
@@ -344,7 +346,7 @@ function ShoppingHome() {
           </h2>
           <p className="mb-4 text-center">
             Discover our mission and values in promoting eco-friendly products.
-            At EcoStore, we are committed to providing sustainable solutions for
+            At EcoFabric, we are committed to providing sustainable solutions for
             a healthier planet.
           </p>
           <p className="mb-6 text-center">
@@ -389,8 +391,8 @@ function ShoppingHome() {
         </div>
         <div className="lg:w-1/2 flex justify-center mt-6 lg:mt-0">
           <img
-            src="https://www.thehorizonfoundation.org/wp-content/uploads/2018/08/iStock-697438336.jpg"
-            alt="EcoStore Products"
+            src="https://res.cloudinary.com/ddnp4px7u/image/upload/v1739544560/about1_cz3afp.jpg"
+            alt="EcoFabric Products"
             className="w-3/4 rounded-xl shadow-xl object-cover"
           />
         </div>
